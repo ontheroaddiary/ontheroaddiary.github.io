@@ -1,0 +1,35 @@
+/* JH Style */
+/*@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);*/
+
+
+body {
+	font-family: Times, serif;
+}
+
+a {
+	color: #99001e;
+	text-decoration: none;
+}
+
+.og-grid li {
+	display: inline-block;
+	margin: 10px 5px 0 5px;
+	vertical-align: top;
+	height: 150px;
+}
+
+.og-expander {
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	padding-top: 70px;
+}
+
+@media screen and (max-width: 650px) {
+
+	.og-fullimg { display: block; width: 70%; }
+	.og-details { width: 30%; float: left; }
+	
+}
